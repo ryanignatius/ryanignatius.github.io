@@ -20,7 +20,10 @@
     {% include_cached masthead.html %}
 
     <div class="initial-content">
-      {{ content }}
+        {% if page.unity_dir %}
+          {% include page__unity.html %}
+        {% endif %}
+        {{ content }}
     </div>
 
     {% if site.search == true %}
