@@ -1,7 +1,7 @@
 {
 "companyName": "Hiory",
 "productName": "MahouShoujoProject",
-"productVersion": "1.0",
+"productVersion": "1.0.1",
 "dataUrl": "MahouShoujoProject.data.unityweb",
 "wasmCodeUrl": "MahouShoujoProject.wasm.code.unityweb",
 "wasmFrameworkUrl": "MahouShoujoProject.wasm.framework.unityweb",
