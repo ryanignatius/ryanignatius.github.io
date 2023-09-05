@@ -1,0 +1,6 @@
+; 初始场景，以及特效演示
+bgm:game.wav;
+unlockBgm:game.wav -name=雲を追いかけて;
+changeBg:Choose a background image -next;
+unlockCg:bg.png -name=良夜; // 解锁CG并赋予名称
+changeScene:scene2-1.txt

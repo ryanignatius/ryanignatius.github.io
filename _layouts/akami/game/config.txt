@@ -1,0 +1,5 @@
+Game_name:Akami Story;
+Game_key:94b2d11d6df32a8;
+Package_name:;
+Title_bgm:title.wav;
+Title_img:WebGAL_New_Enter_Image.png;
