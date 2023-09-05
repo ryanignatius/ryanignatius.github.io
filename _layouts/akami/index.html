@@ -2,13 +2,13 @@
 <html lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
-  <link rel="icon" type="image/x-icon" href="./assets/favicon.a0f5bb8c.ico"/>
+  <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/akami-story/assets/favicon.a0f5bb8c.ico"/>
   <!--    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>-->
   <title>WebGAL</title>
   <meta name="viewport"
         content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
   <script type="module" crossorigin src="./assets/index.a36ff38c.js"></script>
-  <link rel="stylesheet" href="./assets/index.2a7077fa.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/akami-story/assets/index.2a7077fa.css">
 </head>
 <body>
 <!--快速显示落地页，让用户感知不到加载的过程-->
@@ -179,7 +179,7 @@
   const u = navigator.userAgent;
   const isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); // 判断是否是 iOS终端
   if ("serviceWorker" in navigator && !isIOS) {
-    navigator.serviceWorker.register("./webgal-serviceworker.js").then(function (reg) {
+    navigator.serviceWorker.register("{{ site.baseurl }}/akami-story/webgal-serviceworker.js").then(function (reg) {
       // registration worked
       console.log("Registration succeeded. Scope is " + reg.scope);
     }).catch(function (error) {
